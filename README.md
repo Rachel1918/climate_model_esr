@@ -12,6 +12,14 @@ make env
 
 
 ## Usage
+
+The data can be downloaded by running:
+```
+python scripts/download_data.py --workdir /tmp/data
+```
+
+After the data is being downloaded, the file can be posprocessed using `scripts/read_nc.py`.
+
 User should understand some basic climate change model knowledge, for example,
 
 - Climate models: many centres run climate projections. The usual climate models include:
