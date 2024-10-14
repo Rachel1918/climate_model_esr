@@ -1,0 +1,112 @@
+
+input:
+  climate:
+    ocean:
+      enable:
+        - false
+        - false
+      scenario:
+        - ssp370
+        - ssp370
+      climate_model:
+        - gfdl-esm4
+        - gfdl-esm4
+      ensemble_member:
+        - r1i1p1f1
+        - r1i1p1f1
+      variable:
+        - tos
+        - so
+      spatial_resolution:
+        - 60arcmin
+        - 60arcmin
+      temporal_resolution:
+        - monthly
+        - monthly
+      year_range:
+        - 2015-2100
+        - 2015-2100
+      coverage:
+        - global
+        - global
+    atmosphere:
+      enable:
+        - true
+        - true
+        - true
+        - true
+        - true
+      scenario:
+        - ssp370
+        - ssp370
+        - ssp370
+        - ssp370
+        - ssp370
+      climate_model:
+        - mri-esm2-0
+        - mri-esm2-0
+        - mri-esm2-0
+        - mri-esm2-0
+        - mri-esm2-0
+      ensemble_member:
+        - r1i1p1f1
+        - r1i1p1f1
+        - r1i1p1f1
+        - r1i1p1f1
+        - r1i1p1f1
+      variable:
+        - tasmin
+        - tasmax
+        - tas
+        - pr
+        - hurs
+      temporal_resolution:
+        - daily
+        - daily
+        - daily
+        - daily
+        - daily
+      spatial_resolution:
+        - null
+        - null
+        - null
+        - null
+        - null
+      year_range:
+        - 2015-2020
+        - 2015-2020
+        - 2015-2020
+        - 2015-2020
+        - 2015-2020
+      coverage:
+        - global
+        - global
+        - global
+        - global
+        - global
+
+output:
+  agriculture:
+    ISIMIP3b:
+      enable:
+        - false
+      impact_model:
+        - ldndc
+      climate_model:
+        - gfdl-esm4
+      bias_adjustment:
+        - w5e5
+      scenario:
+        - ssp370
+      direct_human_forcing:
+        - 2015soc
+      sensitivity:
+        - 2015co2
+      variable:
+        - soilmoist
+      crop_type:
+        - mai
+      irrigation_type:
+        - firr
+      year_range:
+        - 2015-2100

@@ -1,1 +1,7 @@
 etc/keys
+*.nc
+*.nc4
+*.png
+*.tif
+.vscode
+*.pyc
