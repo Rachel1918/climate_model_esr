@@ -1,4 +1,4 @@
-CONDA_BASE ?= ~/miniconda3
+CONDA_BASE ?= ~/miniforge3
 
 override CONDA=$(CONDA_BASE)/bin/conda
 override MAMBA=$(CONDA_BASE)/bin/mamba
