@@ -7,7 +7,7 @@ SHELL := /bin/bash
 
 clear_env:
 	rm -rf $(CONDA_BASE)/envs/$(PKG)
-	$(MAMBA) index $(CONDA_BASE)/conda-bld
+#	$(MAMBA) index $(CONDA_BASE)/conda-bld
 
 clear_all:
 	rm -rf $(CONDA_BASE)/envs/$(PKG)
